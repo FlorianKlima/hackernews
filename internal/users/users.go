@@ -2,7 +2,7 @@ package users
 
 import (
 	"database/sql"
-	database "github.com/FlorianKlima/hackernews/internal/pkg/db/migrations/mysql"
+	"github.com/FlorianKlima/hackernews/internal/pkg/db/mysql"
 	"golang.org/x/crypto/bcrypt"
 	"log"
 )
